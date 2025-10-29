@@ -3,6 +3,7 @@ import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap/gsap-core";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
+import FirstVideo from "./sections/FirstVideo";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <main>
       <Navbar />
       <Hero />
+      <FirstVideo />
     </main>
   );
 }
