@@ -275,3 +275,36 @@ main {
 .lucia-life-content {
   background: radial-gradient(ellipse, #111117 20%, transparent 70%);
 }
+.horizontal-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.horizontal-wrapper {
+  display: flex;
+  height: 100%;
+  width: 400vw; /* 4 panels => 4 * 100vw */
+}
+
+.panel {
+  flex: 0 0 100vw;
+  height: 100vh;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel:nth-child(1) {
+  background: #ff595e;
+}
+.panel:nth-child(2) {
+  background: #ffca3a;
+}
+.panel:nth-child(3) {
+  background: #8ac926;
+}
+.panel:nth-child(4) {
+  background: #1982c4;
+}
